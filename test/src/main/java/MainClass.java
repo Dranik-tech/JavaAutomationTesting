@@ -20,7 +20,7 @@ public class MainClass {
 
         logIn(driver,"https://handlecrm.com","vovair@gmail.com","Vladimir123!");
 
-        Assert.assertEquals();
+        //Assert.assertEquals();
 
         //driver.quit();
     }
