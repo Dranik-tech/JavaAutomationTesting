@@ -14,4 +14,10 @@ public class LoginPage extends BasePage {
     public LoginPage(String url){
         this.openPage(url);
     }
+
+    public MainPage openMainPage(SelenideElement element){
+        clickOnButton(element);
+
+        return new MainPage();
+    }
 }
