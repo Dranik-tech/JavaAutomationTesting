@@ -3,8 +3,8 @@ import org.junit.Test;
 
 public class LoginTest extends BaseTest {
     public final static String BASE_URL = "https://handlecrm.com/";
-    public final static String LOGIN = "minsk+admin@customertrax.com";
-    private final static String PASSWORD = "h!@rZJUKXdxYf9W{";
+    public final static String LOGIN = "vovair@gmail.com";
+    private final static String PASSWORD = "Vladimir123!";
 
     @Test
     public void loginAttempt() throws InterruptedException {
